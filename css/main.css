@@ -524,6 +524,6 @@ body {
             body section.col-2 article p {
               top: 60%;
               font-size: 3.2rem; } }
-          @media all and (max-width: 699px) and (min-width: 0px) and (orientation: portrait) {
+          @media all and (max-width: 699px) and (min-width: 0px) and (orientation: landscape) {
             body section.col-2 article p {
               display: none; } }
