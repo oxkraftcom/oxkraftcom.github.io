@@ -457,6 +457,9 @@ pre {
   background-repeat: no-repeat;
   height: 100px;
   margin-top: 100px; }
+  @media all and (max-width: 699px) and (min-width: 0px) {
+    .logo {
+      margin-top: 50px; } }
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -496,6 +499,9 @@ body {
           font-weight: 300;
           letter-spacing: .6rem;
           text-indent: .6rem; }
+          @media all and (max-width: 699px) and (min-width: 0px) {
+            body section.col-2 article h1 {
+              display: none; } }
         body section.col-2 article h2 {
           font-size: .8rem;
           font-weight: 800;
@@ -506,8 +512,15 @@ body {
             top: 100px; }
           body section.col-2 article h2.bottom {
             bottom: 100px; }
+          @media all and (max-width: 699px) and (min-width: 0px) {
+            body section.col-2 article h2 {
+              display: none; } }
         body section.col-2 article p {
           top: 50%;
           margin: -1em 0 0;
           font-size: 3.5rem;
           font-weight: 800; }
+          @media all and (max-width: 699px) and (min-width: 0px) {
+            body section.col-2 article p {
+              top: 60%;
+              font-size: 3.2rem; } }
